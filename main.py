@@ -15,7 +15,7 @@ def ai(txt):
 
 
 
-st.title("Gamkers Ai Assistant")
+st.title("dass Ai Assistant")
 
 command = st.chat_input("how can I help you?")
 
