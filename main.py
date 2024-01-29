@@ -15,7 +15,7 @@ def ai(txt):
 
 
 
-st.title("dass Ai Assistant")
+st.title("Mohandass Ai Assistant")
 
 command = st.chat_input("how can I help you?")
 
@@ -37,8 +37,8 @@ if command:
             st.session_state.message.append({"role":"BOT","message":"Hi How are you?"})
     elif "who" in command:
         with st.chat_message("BOT"):
-            st.write("Im gamkers AI Assistant")
-            st.session_state.message.append({"role":"BOT","message":"Im gamkers AI Assistant"})
+            st.write("Im Mohandass AI Assistant")
+            st.session_state.message.append({"role":"BOT","message":"Im Mohandas AI Assistant"})
     else:
         with st.chat_message("BOT"):
             data = ai(command)
