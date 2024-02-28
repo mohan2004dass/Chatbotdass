@@ -39,7 +39,7 @@ if command:
         with st.chat_message("BOT"):
             st.write("Im Mohandass ")
             st.session_state.message.append({"role":"BOT","message":"Im Mohandass "})
-      elif "rakss" in command:
+    elif "rakss" in command:
         with st.chat_message("BOT"):
             st.write("She is friend of Mohandass who developed me ")
             st.session_state.message.append({"role":"BOT","message":"She is friend of Mohandass who developed me "})
