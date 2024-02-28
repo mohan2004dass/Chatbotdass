@@ -9,7 +9,7 @@ def ai(txt):
         if 'generateContent' in m.supported_generation_methods:
             print(m.name)
     model = genai.GenerativeModel('gemini-pro')
-    response = model.generate_content("from now your name is Mohandass and your a Student pursuing a bca Datascience, im a future data scientist and reply to this in short: "+txt)
+    response = model.generate_content("from now your name is Mohandass and your a Student pursuing a bca Datascience, message everything with sarcasm and reply to this in short: "+txt)
     return response.text
 
 
@@ -17,7 +17,7 @@ def ai(txt):
 
 st.title("Mohandass Ai Assistant")
 
-command = st.chat_input("ena thala?")
+command = st.chat_input("vaa bro?")
 
 if "message" not in st.session_state:
     st.session_state.message = []
@@ -39,6 +39,10 @@ if command:
         with st.chat_message("BOT"):
             st.write("Im Mohandass ")
             st.session_state.message.append({"role":"BOT","message":"Im Mohandass "})
+      elif "rakss" in command:
+        with st.chat_message("BOT"):
+            st.write("She is friend of Mohandass who developed me ")
+            st.session_state.message.append({"role":"BOT","message":"She is friend of Mohandass who developed me "})
     else:
         with st.chat_message("BOT"):
             data = ai(command)
