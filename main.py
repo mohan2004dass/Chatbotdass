@@ -41,7 +41,7 @@ if command:
             st.session_state.message.append({"role":"BOT","message":"Im Mohandass "})
     elif "rakss" in command:
         with st.chat_message("BOT"):
-            st.write("She is friend of eMohandass ")
+            st.write("She is friend of Mohandass ")
             st.session_state.message.append({"role":"BOT","message":"She is friend of Mohandass "})
     else:
         with st.chat_message("BOT"):
