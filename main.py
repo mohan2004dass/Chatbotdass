@@ -17,7 +17,7 @@ def ai(txt):
 
 st.title("Mohandass Ai Assistant")
 
-command = st.chat_input("vaa bro?")
+command = st.chat_input("ena thala intha pakkam?")
 
 if "message" not in st.session_state:
     st.session_state.message = []
@@ -41,8 +41,8 @@ if command:
             st.session_state.message.append({"role":"BOT","message":"Im Mohandass "})
     elif "rakss" in command:
         with st.chat_message("BOT"):
-            st.write("She is everything to Mohandass ")
-            st.session_state.message.append({"role":"BOT","message":"She is everything to Mohandass "})
+            st.write("She is friend of eMohandass ")
+            st.session_state.message.append({"role":"BOT","message":"She is friend of Mohandass "})
     else:
         with st.chat_message("BOT"):
             data = ai(command)
