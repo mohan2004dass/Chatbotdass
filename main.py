@@ -46,7 +46,7 @@ if command:
     elif "saravanan" in command:
         with st.chat_message("BOT"):
             st.write("he is friend of mohandass")
-             st.session_state.message.append({"role":"BOT","message":"he is friend of Mohandass "})
+            st.session_state.message.append({"role":"BOT","message":"he is friend of Mohandass "})
     else:
         with st.chat_message("BOT"):
             data = ai(command)
