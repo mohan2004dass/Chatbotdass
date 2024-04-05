@@ -44,11 +44,11 @@ if command:
             st.write("I am 19teen ")
             st.session_state.message.append({"role":"BOT","message":"I am 19teen"})
      elif "where are you from" in command:
-        with st.chat_message("BOT"):
+         with st.chat_message("BOT"):
             st.write("I am from arupukottai ")
             st.session_state.message.append({"role":"BOT","message":"I am from arupukottai"})  
      elif "where are you currently living" in command:
-        with st.chat_message("BOT"):
+         with st.chat_message("BOT"):
             st.write("I am currently living in chennai ")
             st.session_state.message.append({"role":"BOT","message":"I am currently living in chennai "})
     elif "what is date of birth of mohandass" in command:
