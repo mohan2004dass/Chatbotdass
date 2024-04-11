@@ -17,7 +17,7 @@ def ai(txt):
 
 st.title("Mohandass Ai Assistant")
 
-command = st.chat_input("ena vro?")
+command = st.chat_input("Ena thala?")
 
 if "message" not in st.session_state:
     st.session_state.message = []
