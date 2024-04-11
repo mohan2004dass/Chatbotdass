@@ -63,10 +63,10 @@ if command:
         with st.chat_message("BOT"):
             st.write("Im Mohandass ")
             st.session_state.message.append({"role":"BOT","message":"Im Mohandass Bca datascience student! "})
-    elif "rakss" in command:
+    elif "have you eaten" in command:
         with st.chat_message("BOT"):
-            st.write("She is friend of Mohandass ")
-            st.session_state.message.append({"role":"BOT","message":"She is friend of Mohandass "})
+            st.write("yea! im full thanks for your concern ")
+            st.session_state.message.append({"role":"BOT","message":"yea! im full thanks for your concern "})
     else:
         with st.chat_message("BOT"):
             data = ai(command)
