@@ -17,7 +17,7 @@ def ai(txt):
 
 st.title("Mohandass Ai Assistant")
 
-command = st.chat_input("Ena thala?")
+command = st.chat_input("Hello! there")
 
 if "message" not in st.session_state:
     st.session_state.message = []
@@ -49,20 +49,20 @@ if command:
             st.session_state.message.append({"role":"BOT","message":"I am from arupukottai"})  
     elif "where are you currently living" in command:
          with st.chat_message("BOT"):
-            st.write("I am currently living in chennai ")
-            st.session_state.message.append({"role":"BOT","message":"I am currently living in chennai "})
+            st.write("I am currently living in Bangalore")
+            st.session_state.message.append({"role":"BOT","message":"I am currently living in Bangalore"})
     elif "what is date of birth of mohandass" in command:
         with st.chat_message("BOT"):
             st.write("his dob is 21.07.2004 ")
             st.session_state.message.append({"role":"BOT","message":"his dob is 21.07.2004 "})
     elif "when mohandass born and age " in command:
         with st.chat_message("BOT"):
-            st.write("His dob is 21.07.2004 and the age is 19teen ")
-            st.session_state.message.append({"role":"BOT","message":"his dob is 21.07.2004 and the age is 19teen "})
+            st.write("His dob is 21.07.2004 and the age is 20teen ")
+            st.session_state.message.append({"role":"BOT","message":"his dob is 21.07.2004 and the age is 20teen "})
     elif "who" in command:
         with st.chat_message("BOT"):
             st.write("Im Mohandass ")
-            st.session_state.message.append({"role":"BOT","message":"Im Mohandass Bca datascience student! "})
+            st.session_state.message.append({"role":"BOT","message":"Im Mohandass MCA student! "})
     elif "have you eaten" in command:
         with st.chat_message("BOT"):
             st.write("yea! im full thanks for your concern ")
