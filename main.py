@@ -35,14 +35,14 @@ if command:
         with st.chat_message("BOT"):
             st.write("Hi What brings you here? ")
             st.session_state.message.append({"role":"BOT","message":"What brings you here?"})
-    elif "hi" in command:
+    elif "What is your name" in command:
          with st.chat_message("BOT"):
-            st.write("Hi what's app!? ")
-            st.session_state.message.append({"role":"BOT","message":"Hi what's app!?"})
+            st.write("I am Dass ")
+            st.session_state.message.append({"role":"BOT","message":"I am Dass"})
     elif "age" in command:
         with st.chat_message("BOT"):
-            st.write("I am 19teen ")
-            st.session_state.message.append({"role":"BOT","message":"I am 19teen"})
+            st.write("I am 20ty ")
+            st.session_state.message.append({"role":"BOT","message":"I am 20ty"})
     elif "where are you from" in command:
          with st.chat_message("BOT"):
             st.write("I am from arupukottai ")
@@ -57,8 +57,8 @@ if command:
             st.session_state.message.append({"role":"BOT","message":"his dob is 21.07.2004 "})
     elif "when mohandass born and age " in command:
         with st.chat_message("BOT"):
-            st.write("His dob is 21.07.2004 and the age is 20teen ")
-            st.session_state.message.append({"role":"BOT","message":"his dob is 21.07.2004 and the age is 20teen "})
+            st.write("His dob is 21.07.2004 and the age is 20ty ")
+            st.session_state.message.append({"role":"BOT","message":"his dob is 21.07.2004 and the age is 20ty "})
     elif "who" in command:
         with st.chat_message("BOT"):
             st.write("Im Mohandass ")
